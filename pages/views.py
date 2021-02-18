@@ -6,7 +6,7 @@ def home_view(request, *args, **kwargs):
     return render(request, "home.html", {})
 
 def contact_view(request, *args, **kwargs):
-    return HttpResponse("<h1>Contact</h1>")
+    return render(request, "contact.html", {})
 
 def about_view(request, *args, **kwargs):
-    return HttpResponse("<h1>About</h1>")
+    return render(request, "about.html", {})
