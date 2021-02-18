@@ -1,0 +1,1471 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"aou",
+				"about_view"
+			],
+			[
+				"contact",
+				"contact_view"
+			],
+			[
+				"Mo",
+				"models"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"is",
+				"is_even"
+			],
+			[
+				"is_",
+				"is_even"
+			],
+			[
+				"print",
+				"print_text"
+			],
+			[
+				"dec",
+				"decorated"
+			],
+			[
+				"count",
+				"count_car"
+			],
+			[
+				"fun",
+				"function_1"
+			],
+			[
+				"de",
+				"deliver_presents_iteratively"
+			],
+			[
+				"num",
+				"num_sides"
+			],
+			[
+				"high_s",
+				"high_score_rect"
+			],
+			[
+				"high",
+				"high_score_image"
+			],
+			[
+				"init",
+				"initialize"
+			],
+			[
+				"mous",
+				"mouse_pos"
+			],
+			[
+				"msg_m",
+				"msg_image_rect"
+			],
+			[
+				"group",
+				"groupcollide"
+			],
+			[
+				"ali",
+				"alien_number"
+			],
+			[
+				"alien",
+				"alien_width"
+			],
+			[
+				"_update",
+				"_update_bullets"
+			],
+			[
+				"new",
+				"new_bullet"
+			],
+			[
+				"sc",
+				"screen_rect"
+			],
+			[
+				"Ali",
+				"AlienInvasion"
+			],
+			[
+				"resp",
+				"responses"
+			],
+			[
+				"res",
+				"responses"
+			],
+			[
+				"def",
+				"defs\tMethod"
+			],
+			[
+				"respon",
+				"responses"
+			],
+			[
+				"reso",
+				"responses"
+			],
+			[
+				"fom",
+				"formatted_name"
+			],
+			[
+				"sto",
+				"store_response"
+			],
+			[
+				"respo",
+				"responses"
+			],
+			[
+				"moz",
+				"Mozart"
+			],
+			[
+				"len",
+				"len_of_s"
+			],
+			[
+				"s",
+				"s2_in_s"
+			],
+			[
+				"max",
+				"max_s"
+			],
+			[
+				"for",
+				"formatted_name"
+			],
+			[
+				"us",
+				"user_2"
+			],
+			[
+				"get_",
+				"get_new_username"
+			],
+			[
+				"ge",
+				"greet_user"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"nu",
+				"number_1"
+			],
+			[
+				"fil",
+				"filenames"
+			],
+			[
+				"filen",
+				"filename"
+			],
+			[
+				"cou",
+				"count_words"
+			],
+			[
+				"read",
+				"readlines"
+			],
+			[
+				"in",
+				"in_string"
+			],
+			[
+				"r",
+				"rstrip"
+			],
+			[
+				"c",
+				"c_replace"
+			],
+			[
+				"so",
+				"store_in_list"
+			],
+			[
+				"st",
+				"store_in_list"
+			],
+			[
+				"pi",
+				"pi_float"
+			],
+			[
+				"p",
+				"pi_int"
+			],
+			[
+				"f",
+				"f_obj"
+			],
+			[
+				"file",
+				"file_object"
+			],
+			[
+				"pri",
+				"privileges"
+			],
+			[
+				"batt",
+				"battery_size"
+			],
+			[
+				"restau",
+				"restaurant_2"
+			],
+			[
+				"bate",
+				"battery_size"
+			],
+			[
+				"pe",
+				"penner_will_rein"
+			],
+			[
+				"number",
+				"number_served"
+			],
+			[
+				"ice",
+				"ice_cream"
+			],
+			[
+				"ic",
+				"ice_cream"
+			],
+			[
+				"flo",
+				"flavors_display"
+			],
+			[
+				"cuisi",
+				"cuisine_type"
+			],
+			[
+				"cui",
+				"cuisine_type"
+			],
+			[
+				"battry",
+				"batteray_size"
+			],
+			[
+				"des",
+				"describe_battery"
+			],
+			[
+				"ba",
+				"batteray_size"
+			],
+			[
+				"rese",
+				"reset_login_attempts"
+			],
+			[
+				"numer",
+				"number_served"
+			],
+			[
+				"com",
+				"completed_model"
+			],
+			[
+				"unp",
+				"unprinted_designs"
+			],
+			[
+				"title",
+				"title_prompt"
+			],
+			[
+				"titl",
+				"title_prompt"
+			],
+			[
+				"path",
+				"path_dir"
+			],
+			[
+				"un",
+				"unprinted_designs"
+			],
+			[
+				"lan",
+				"language"
+			],
+			[
+				"cu",
+				"current_users_lower"
+			],
+			[
+				"nwe",
+				"new_users"
+			],
+			[
+				"age",
+				"age_1"
+			],
+			[
+				"fo",
+				"favorite_pizzas"
+			],
+			[
+				"squ",
+				"squares_2"
+			],
+			[
+				"ma",
+				"magicians"
+			],
+			[
+				"fa",
+				"famous_person"
+			],
+			[
+				"w",
+				"w_list"
+			],
+			[
+				"cirl",
+				"circle_area"
+			],
+			[
+				"cir",
+				"circle_area"
+			],
+			[
+				"lab",
+				"Labelphoto"
+			],
+			[
+				"play",
+				"play_btn"
+			],
+			[
+				"tex",
+				"text_b"
+			],
+			[
+				"ve",
+				"velocity_y"
+			],
+			[
+				"vel",
+				"velocity_x"
+			],
+			[
+				"bu",
+				"but_col"
+			],
+			[
+				"butt",
+				"button_color"
+			],
+			[
+				"t",
+				"text"
+			],
+			[
+				"m",
+				"master"
+			],
+			[
+				"fr",
+				"frame_a"
+			],
+			[
+				"ls",
+				"list_2"
+			],
+			[
+				"l",
+				"list_1"
+			],
+			[
+				"li",
+				"list_2"
+			],
+			[
+				"list",
+				"list_1"
+			],
+			[
+				"sort",
+				"sortiert"
+			],
+			[
+				"upper",
+				"upper_names"
+			],
+			[
+				"upp",
+				"upper_names"
+			],
+			[
+				"sqa",
+				"squares"
+			],
+			[
+				"las",
+				"last_three"
+			],
+			[
+				"fir",
+				"first_three"
+			],
+			[
+				"em",
+				"emp_2"
+			],
+			[
+				"emp",
+				"emp_1"
+			],
+			[
+				"add",
+				"add_one"
+			],
+			[
+				"cus",
+				"customers"
+			],
+			[
+				"python",
+				"pythonanywhere"
+			],
+			[
+				"publ",
+				"published_date"
+			],
+			[
+				"messa",
+				"messages"
+			],
+			[
+				"album",
+				"album_title"
+			],
+			[
+				"make",
+				"make_album"
+			],
+			[
+				"artist",
+				"artist_name"
+			],
+			[
+				"game",
+				"game_active"
+			],
+			[
+				"al",
+				"alien_number"
+			],
+			[
+				"alie",
+				"alien_width"
+			],
+			[
+				"_up",
+				"_update_bullets"
+			],
+			[
+				"moving",
+				"moving_right"
+			],
+			[
+				"_check",
+				"_check_keydown_events"
+			],
+			[
+				"K",
+				"K_LEFT"
+			],
+			[
+				"mo",
+				"moving_right"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "products/apps.py",
+			"settings":
+			{
+				"buffer_size": 91,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "products/admin.py",
+			"settings":
+			{
+				"buffer_size": 119,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tryDjango/settings.py",
+			"settings":
+			{
+				"buffer_size": 3141,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/home.html",
+			"settings":
+			{
+				"buffer_size": 153,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/about.html",
+			"settings":
+			{
+				"buffer_size": 138,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/contact.html",
+			"settings":
+			{
+				"buffer_size": 140,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/views.py",
+			"settings":
+			{
+				"buffer_size": 383,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/style.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "tryDjango/urls.py",
+			"settings":
+			{
+				"buffer_size": 947,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "products/models.py",
+			"settings":
+			{
+				"buffer_size": 367,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Python3.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"color them",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: List Packages"
+			],
+			[
+				"set",
+				"Set Syntax: Python"
+			],
+			[
+				"set syntax: py",
+				"Set Syntax: Python"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Install Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"install package control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 418.0,
+		"history":
+		[
+			"print(var)",
+			"var = 1",
+			"git status",
+			"while True:",
+			"guess = 1",
+			"from tkinter import *",
+			"button.configure()",
+			"5000 * 12",
+			"4000 * 12",
+			"4200 * 12",
+			"pytest",
+			"was = input(\"geben sie ihren namen ein:\")",
+			"print(\"hello\")",
+			"sdfg",
+			"def make_album(artist_name, album_title, songs=None):",
+			"adf",
+			"promt = \"\\nTell me something, and I will repeat it back to you:\"",
+			"quit",
+			"print(f\"\\nHello, {name}!\")",
+			"name = input(promt)",
+			"promt += \"\\nthe fuck?\"",
+			"promt += \"\\nWhat is your first name? \"",
+			"promt = \"if you tell us who you are, we can personalize the messages you see.\"",
+			"message = input(\"Tell me something, and I will repeat it back to you: \")",
+			"print(randint)",
+			"randint(1, 6)",
+			"from random import randint",
+			"age_0 >= 21 and age_1 >= 21",
+			"age_1 = 22",
+			"age_0 >= 21 and age_1 >= 21",
+			"age_1 = 18",
+			"age_0 = 22",
+			"x != False",
+			"x != True",
+			"x = !",
+			"x",
+			"x != True",
+			"x = True",
+			"age == 18",
+			"age = 18",
+			"cho \"export PATH=~/bin:$PATH\" >> ~/.profile",
+			"sudo ln -s /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/subl",
+			"sdfsadfa",
+			"Urlaub = ['Irland', 'Neuseeland', 'Norwegen', 'Island']",
+			"len(cars)",
+			"cars = ['bmw', 'audi', 'toyota', 'subaru'] ",
+			"2 + 2",
+			"import this",
+			"lol"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango"
+	],
+	"file_history":
+	[
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango/urls.py",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/views.py",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/migrations/0003_auto_20210218_2224.py",
+		"/F/Diverses/Python/5-PythonCrashCourse_ubung/Pcc_django/Django app/learning_log_2/Workflow_Django.py",
+		"/F/Diverses/Python/5-PythonCrashCourse_ubung/Pcc_django/Django app/Ziel_learning_log.txt",
+		"/F/Diverses/Python/24_FREECODECAMP/Wiederholung/HTML_wiederholung_1.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/test.html",
+		"/F/Diverses/Python/24_FREECODECAMP/CSS/mystyle.css",
+		"/F/Diverses/Python/24_FREECODECAMP/Wiederholung/CSS_wiederholung_1.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_28_define-the-head-and-body-of-an-html-document.html",
+		"/F/Diverses/Python/24_FREECODECAMP/Wiederholung/test.py",
+		"/F/Diverses/Python/24_FREECODECAMP/Wiederholung/html-repeat.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_27_declare-the-doctype-of-an-html-document.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_26_nest-many-elements-within-a-single-div-element.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_25_check-radio-buttons-and-checkboxes-by-default.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_24_use-the-value-attribute-with-radio-buttons-and-checkboxes.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_23_create-a-set-of-checkboxes.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_22_create-a-set-of-radio-buttons.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_21_use-html5-to-require-a-field.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_20_add-a-submit-button-to-a-form.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/add-a-submit-button-to-a-form.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_19_create-a-form-element.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_18_add-placeholder-text-to-a-text-field.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_17_create-a-text-field.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_16_create-an-ordered-list.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_15_create-a-bulleted-unordered-list.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_14_turn-an-image-into-a-link.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_13_nest-many-elements-within-a-single-div-element.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/make-dead-links-using-the-hash-symbol.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_12_nest-an-anchor-element-within-a-paragraph.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_11_link-to-internal-sections-of-a-page-with-anchor-elements.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_9_add-images-to-your-website.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/_10_link-to-external-pages-with-anchor-elements.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_22_create-grids-within-grids.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_21_use-media-queries-to-create-responsive-layouts.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_20_create-flexible-layouts-using-auto-fit.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_19_create-flexible-layouts-using-auto-fill.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_18_limit-item-size-using-the-minmax-function.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_17_reduce-repetition-using-the-repeat-function.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_16_use-grid-area-without-creating-an-areas-template.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_15_place-items-in-grid-areas-using-the-grid-area-property.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_13_align-all-items-vertically-using-align-items.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_14_divide-the-grid-into-an-area-template.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_12_align-all-items-horizontally-using-justify-items.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_9_use-grid-row-to-control-spacing.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_11_align-an-item-vertically-using-align-self.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_10_align-an-item-horizontally-using-justify-self.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_8_use-grid-column-to-control-spacing.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_7_add-gaps-faster-with-grid-gap.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_6_create-a-row-gap-using-grid-row-gap.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_4_use-css-grid-units-to-change-the-size-of-columns-and-rows.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_3_add-rows-with-grid-template-rows.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_2_add-columns-with-grid-template-columns.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Grid/_1_create-your-first-css-grid.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_17_use-the-align-self-property.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_16_use-the-order-property-to-rearrange-items.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_15_use-the-flex-shorthand-property.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_14_use-the-flex-basis-property-to-set-the-initial-size-of-an-item.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_13_use-the-flex-grow-property-to-expand-items.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_12_use-the-flex-shrink-property-to-shrink-items.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_11_use-the-flex-wrap-property-to-wrap-a-row-or-column.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_10_use-the-align-items-property-in-the-tweet-embed.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_9_align-elements-using-the-align-items-property.hmtl.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_8_use-the-justify-content-property-in-the-tweet-embed.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_7_align-elements-using-the-justify-content-property.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_6_apply-the-flex-direction-property-to-create-a-column-in-the-tweet-embed.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_5_use-the-flex-direction-property-to-make-a-column.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_4_apply-the-flex-direction-property-to-create-rows-in-the-tweet-embed.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_3_use-the-flex-direction-property-to-make-a-row.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_2_add-flex-superpowers-to-the-tweet-embed.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_1_use-display-flex-to-position-two-boxes.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_4_make-typography-responsive.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_1_create-a-media-query.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_3_use-a-retina-image-for-higher-resolution-displays.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_2_make-an-image-responsive.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_22_use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elements.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_21_use-tabindex-to-add-keyboard-focus-to-an-element.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_1_add-a-text-alternative-to-images-for-visually-impaired-accessibility.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_20_make-links-navigable-with-html-access-keys.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_19_give-links-meaning-by-using-descriptive-link-text.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_18_avoid-colorblindness-issues-by-carefully-choosing-colors-that-convey-information.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_17_avoid-colorblindness-issues-by-using-sufficient-contrast.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_16_improve-readability-with-high-contrast-text.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_15_make-elements-only-visible-to-a-screen-reader-by-using-custom-css.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_13_add-an-accessible-date-picker.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_14_standardize-times-with-the-html5-datetime-attribute.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_12_wrap-radio-buttons-in-a-fieldset-element-for-better-accessibility.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_11_improve-form-field-accessibility-with-the-label-element.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_10_improve-chart-accessibility-with-the-figure-element.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_9_improve-accessibility-of-audio-content-with-the-audio-element.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_8_make-screen-reader-navigation-easier-with-the-footer-landmark.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_7_make-screen-reader-navigation-easier-with-the-nav-landmark.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_6_make-screen-reader-navigation-easier-with-the-header-landmark.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_5_wrap-content-in-the-article-element.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_4_jump-straight-to-the-content-using-the-main-element.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_3_use-headings-to-show-hierarchical-relationships-of-content.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_2_know-when-alt-text-should-be-left-blank.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/test.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/learn-how-bezier-curves-work.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/use-a-bezier-curve-to-move-a-graphic.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/change-animation-timing-with-keywords.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/animate-multiple-elements-at-variable-rates.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/animate-elements-at-variable-rates.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/make-a-css-heartbeat-using-an-infinite-animation-count.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/animate-elements-continually-using-an-infinite-animation-count.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/learn-how-the-css-keyframes-and-animation-properties-work.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/use-css-animation-to-change-the-hover-state-of-a-button.html",
+		"/F/Diverses/Python/24_FREECODECAMP/CSS/learn-how-the-css-keyframes-and-animation-properties-work.html",
+		"/F/Diverses/Python/24_FREECODECAMP/CSS/create-a-more-complex-shape-using-css-and-html.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/create-a-gradual-css-linear-gradient.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/create-a-graphic-using-css.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/add-a-box-shadow-to-a-card-like-element.html",
+		"/C/Program Files (x86)/Python37-32/Lib/curses/ascii.py",
+		"/C/Program Files (x86)/Python37-32/Lib/importlib/_bootstrap.py",
+		"/C/Program Files (x86)/Python37-32/Lib/webbrowser.py",
+		"/F/programme/Python/asadf.py",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/adjust-the-tone-of-a-color.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/adjust-the-hue-of-a-color.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/adjust-the-color-of-various-elements-to-complementary-colors.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/center-an-element-horizontally-using-the-margin-property.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/use-the-text-transform-property-to-make-text-uppercase.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/create-visual-balance-using-the-text-align-property.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/change-the-position-of-overlapping-elements-with-the-z-index-property.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/push-elements-left-or-right-with-the-float-property.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/lock-an-element-to-the-browser-window-with-fixed-positioning.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/move-a-relatively-positioned-element-with-css-offsets.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/lock-an-element-to-its-parent-with-absolute-positioning.html",
+		"/F/Diverses/Python/24_FREECODECAMP/HTML/README.md"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 625.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "products/apps.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 91,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "products/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								119,
+								119
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tryDjango/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								655,
+								655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/about.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								104,
+								104
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "pages/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "tryDjango/urls.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 947,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								947,
+								947
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "products/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								314,
+								314
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 211.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 266.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 254.0
+	},
+	"pinned_build_system": "",
+	"project": "try-django.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sublime",
+				"alle_kapitel_alt\\ehmatthes-pcc_2e-9e7977b\\chapter_01\\Python3.sublime-build"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 574.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 208.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
