@@ -5,7 +5,13 @@
     <h1>About</h1>
     <p>Hmm...scheint niemand zuhause zu sein</p>
 
-<p>{{ my_text }}, {{ random_number}}</p>
+<p>{{ Infos }} {{ random_number}}{{ my_list }}</p>
+
+<ul>
+{% for my_sub_item in my_list %}
+    <li>{{ my_sub_item }}</li>
+{% endfor %}
+</ul>
 {% endblock content %}
 
         

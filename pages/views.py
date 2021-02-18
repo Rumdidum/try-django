@@ -6,7 +6,11 @@ def home_view(request, *args, **kwargs):
     return render(request, "home.html", {})
 
 def about_view(request, *args, **kwargs):
-    my_context = {"Infos": "give me some infos", "random_number": 34}
+    my_context = {
+    "Infos": "give me some infos", 
+    "random_number": 34,
+    "my_list": [12, 35, 5369]
+    }
     return render(request, "about.html", my_context)
 
 def contact_view(request, *args, **kwargs):
