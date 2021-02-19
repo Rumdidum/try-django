@@ -9,7 +9,7 @@ def about_view(request, *args, **kwargs):
     my_context = {
     "Infos": "give me some infos", 
     "random_number": 34,
-    "my_list": [12, 35, 5369]
+    "my_list": [12, 312, 5369, "ABC"]
     }
     return render(request, "about.html", my_context)
 
