@@ -1,12 +1,20 @@
 from django.shortcuts import render
-from .forms import ProductForm
+from .forms import ProductForm, RawProductForm
 from .models import Product
 
 def product_create_view(request):
-    print("Was passiert bei GET-----", request.GET)
-    print("Was passiert bei POST----", request.POST)
-    title = request.POST.get('title')
-    context = {}
+    my_form = RawProductForm()
+    if request.method == "POST":
+        my_form = RawProductForm(request.POST) 
+        if my_form.is_valid():
+            # now the data is good
+            print("Aufgeräumte daten -", my_form.cleaned_data)
+            Product.objects.create(**my_form.cleaned_data)
+        else:
+            print("Alle fehler auflisten -",my_form.errors)
+    context = {
+        "form": my_form
+    }
     return render(request, "products/product_create.html", context)
 
 # def product_create_view(request):

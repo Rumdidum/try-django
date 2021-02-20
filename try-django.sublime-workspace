@@ -538,55 +538,55 @@
 			}
 		},
 		{
-			"file": "templates/home.html",
+			"file": "products/models.py",
 			"settings":
 			{
-				"buffer_size": 106,
+				"buffer_size": 380,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "templates/navbar.html",
+			"file": "products/views.py",
 			"settings":
 			{
-				"buffer_size": 231,
+				"buffer_size": 921,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "templates/about.html",
+			"file": "products/templates/products/product_create.html",
 			"settings":
 			{
-				"buffer_size": 290,
+				"buffer_size": 227,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "templates/contact.html",
+			"file": "products/forms.py",
 			"settings":
 			{
-				"buffer_size": 91,
+				"buffer_size": 227,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "pages/views.py",
+			"file": "templates/product/detail.html",
 			"settings":
 			{
-				"buffer_size": 512,
+				"buffer_size": 122,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "templates/style.css",
+			"file": "products/templates/products/product_detail.html",
 			"settings":
 			{
-				"buffer_size": 65,
+				"buffer_size": 139,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -595,16 +595,16 @@
 			"file": "tryDjango/urls.py",
 			"settings":
 			{
-				"buffer_size": 934,
+				"buffer_size": 1086,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "products/models.py",
+			"file": "templates/navbar.html",
 			"settings":
 			{
-				"buffer_size": 367,
+				"buffer_size": 369,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -884,15 +884,23 @@
 	"expanded_folders":
 	[
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/templates",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/templates/products",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango"
 	],
 	"file_history":
 	[
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/pages/views.py",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango/urls.py",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/style.css",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/contact.html",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/about.html",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/home.html",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/navbar.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/learning_log_2/templates/navbar.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/apps.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/admin.py",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango/urls.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/views.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/migrations/0003_auto_20210218_2224.py",
 		"/F/Diverses/Python/5-PythonCrashCourse_ubung/Pcc_django/Django app/learning_log_2/Workflow_Django.py",
@@ -1010,17 +1018,11 @@
 		"/F/programme/Python/asadf.py",
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/adjust-the-tone-of-a-color.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/adjust-the-hue-of-a-color.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/adjust-the-color-of-various-elements-to-complementary-colors.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/center-an-element-horizontally-using-the-margin-property.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/use-the-text-transform-property-to-make-text-uppercase.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/create-visual-balance-using-the-text-align-property.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/change-the-position-of-overlapping-elements-with-the-z-index-property.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/push-elements-left-or-right-with-the-float-property.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/lock-an-element-to-the-browser-window-with-fixed-positioning.html"
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/adjust-the-color-of-various-elements-to-complementary-colors.html"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -1051,7 +1053,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -1067,8 +1069,8 @@
 						"selection":
 						[
 							[
-								1566,
-								1566
+								2942,
+								2942
 							]
 						],
 						"settings":
@@ -1078,10 +1080,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 594.0,
+						"translation.y": 150.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1097,8 +1099,8 @@
 						"selection":
 						[
 							[
-								183,
-								183
+								199,
+								199
 							]
 						],
 						"settings":
@@ -1109,29 +1111,29 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "templates/home.html",
+					"file": "products/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 106,
+						"buffer_size": 380,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								106,
-								106
+								380,
+								380
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1142,19 +1144,47 @@
 				},
 				{
 					"buffer": 3,
-					"file": "templates/navbar.html",
+					"file": "products/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 231,
+						"buffer_size": 921,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								231,
-								231
+								373,
+								373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "products/templates/products/product_create.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								227,
+								227
 							]
 						],
 						"settings":
@@ -1169,76 +1199,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "templates/about.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 290,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								289,
-								289
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
 					"buffer": 5,
-					"file": "templates/contact.html",
+					"file": "products/forms.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 91,
+						"buffer_size": 227,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "pages/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 512,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								512,
-								512
+								196,
+								196
 							]
 						],
 						"settings":
@@ -1249,29 +1223,57 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "templates/style.css",
+					"buffer": 6,
+					"file": "templates/product/detail.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 65,
+						"buffer_size": 122,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								65,
-								65
+								122,
+								122
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "products/templates/products/product_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								139
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1286,15 +1288,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 934,
+						"buffer_size": 1086,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								697,
-								697
+								1085,
+								1085
 							]
 						],
 						"settings":
@@ -1307,35 +1309,35 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 9,
-					"file": "products/models.py",
+					"file": "templates/navbar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 367,
+						"buffer_size": 369,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								56,
-								56
+								369,
+								369
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1343,7 +1345,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 36.0
 	},
 	"input":
 	{
@@ -1388,7 +1390,7 @@
 	"project": "try-django.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 68.0
 	},
 	"save_all_on_build": true,
 	"select_file":
