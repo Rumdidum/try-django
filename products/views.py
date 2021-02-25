@@ -1,24 +1,24 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .forms import ProductForm, RawProductForm
 from .models import Product
 
-def render_initial_data(request):
-    initial_data = {
-        'title': "My awesome title"
-    }
-    obj = Prodct.objects.get(id=1)
-    my_form = RawProductForm(request.POST or None, initial=initial_data, instance= obj)
-    context = {
-        'form': my_form
-    }
-    return render(request, "products/product_create.html", context)
-# def dynamic_lookup_view(request, my_id):
-#     obj = Product.objects.get(id=my_id)
-
-#     context = {
-#         "object": obj
+# def render_initial_data(request):
+#     initial_data = {
+#         'title': "My awesome title"
 #     }
-#     return render(request, "products/product_detail.html", context)
+#     obj = Prodct.objects.get(id=1)
+#     my_form = RawProductForm(request.POST or None, instance=obj)
+#     context = {
+#         'form': my_form
+#     }
+#     return render(request, "products/product_create.html", context)
+def dynamic_lookup_view(request, my_id):
+    # obj = Product.objects.get(id=my_id)
+    obj = get_object_or_404(Product, id=my_id)
+    context = {
+        "object": obj
+    }
+    return render(request, "products/product_detail.html", context)
 
 # def product_create_view(request):
 #     my_form = RawProductForm()

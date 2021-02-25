@@ -21,10 +21,11 @@ from pages.views import home_view, contact_view, about_view
 #     product_create_view,
 #     dynamic_lookup_view
 #     )
+from products.views import dynamic_lookup_view
 from products.views import product_create_view
 urlpatterns = [
-    # path('products/<int:my_id>/', dynamic_lookup_view, name='product'),
-    # path('create/<int:my_id>/', dynamic_lookup_view, name='create'),
+    path('product/<int:my_id>/', dynamic_lookup_view, name='product'),
+    path('create/<int:my_id>/', dynamic_lookup_view, name='create'),
     path('', home_view),
     path('home/', home_view),
     path('contact/', contact_view),

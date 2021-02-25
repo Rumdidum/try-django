@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"my",
+				"my_id"
+			],
+			[
+				"ini",
+				"initial_data"
+			],
+			[
+				"my_",
+				"my_form"
+			],
+			[
 				"ob",
 				"objects"
 			],
@@ -502,18 +514,6 @@
 			[
 				"alie",
 				"alien_width"
-			],
-			[
-				"_up",
-				"_update_bullets"
-			],
-			[
-				"moving",
-				"moving_right"
-			],
-			[
-				"_check",
-				"_check_keydown_events"
 			]
 		]
 	},
@@ -532,19 +532,24 @@
 			"file": "templates/base.html",
 			"settings":
 			{
-				"buffer_size": 199,
+				"buffer_size": 255,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "from django.shortcuts import render\nfrom .models import Product\n\ndef dynamic_lookup_view(request, my_id):\n    obj = Product.objects.get(id=my_id)\n\n    context = {\n        \"object\": obj\n    }\n    return render(request, \"products/product_detail.html\", context)\n\n# def product_create_view(request):\n#     my_form = RawProductForm()\n#     if request.method == \"POST\":\n#         my_form = RawProductForm(request.POST) \n#         if my_form.is_valid():\n#             # now the data is good\n#             print(\"Aufgeräumte daten -\", my_form.cleaned_data)\n#             Product.objects.create(**my_form.cleaned_data)\n#         else:\n#             print(\"Alle fehler auflisten -\",my_form.errors)\n#     context = {\n#         \"form\": my_form\n#     }\n#     return render(request, \"products/product_create.html\", context)\n\ndef product_create_view(request):\n    form = ProductForm(request.POST or None)\n    if form.is_valid():\n        form.save()\n        form = ProductForm()\n\n    context = {\n        'form': form\n    }\n    return render(request, \"products/product_create.html\", context)\n\ndef product_detail_view(request):\n    obj = Product.objects.get(id=1)\n    # context = {\n    #     'title': obj.title,\n    #     'description': obj.description,\n    # }\n    context = {\n        'object': obj\n    }\n    return render(request, \"products/product_detail.html\", context)",
-			"file": "products/views.py",
-			"file_size": 1406,
-			"file_write_time": 132583359879531156,
+			"file": "templates/about.html",
 			"settings":
 			{
-				"buffer_size": 1355,
+				"buffer_size": 493,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "products/views.py",
+			"settings":
+			{
+				"buffer_size": 1828,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -568,6 +573,15 @@
 			}
 		},
 		{
+			"file": "products/templates/products/product_list.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "templates/navbar.html",
 			"settings":
 			{
@@ -580,7 +594,25 @@
 			"file": "products/forms.py",
 			"settings":
 			{
-				"buffer_size": 1763,
+				"buffer_size": 2021,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/style.css",
+			"settings":
+			{
+				"buffer_size": 111,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "mein_test.py",
+			"settings":
+			{
+				"buffer_size": 180,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -589,7 +621,7 @@
 			"file": "products/models.py",
 			"settings":
 			{
-				"buffer_size": 380,
+				"buffer_size": 451,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -598,7 +630,7 @@
 			"file": "tryDjango/urls.py",
 			"settings":
 			{
-				"buffer_size": 1215,
+				"buffer_size": 1374,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -883,6 +915,7 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Rumdidum/AppData/Local/Temp/Temp1_beginner-html-site-styled-gh-pages.zip/beginner-html-site-styled-gh-pages/index.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/my_env/Lib/site-packages/django/template/defaultfilters.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/models.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango/urls.py",
@@ -1009,12 +1042,11 @@
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/create-a-graphic-using-css.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/add-a-box-shadow-to-a-card-like-element.html",
 		"/C/Program Files (x86)/Python37-32/Lib/curses/ascii.py",
-		"/C/Program Files (x86)/Python37-32/Lib/importlib/_bootstrap.py",
-		"/C/Program Files (x86)/Python37-32/Lib/webbrowser.py"
+		"/C/Program Files (x86)/Python37-32/Lib/importlib/_bootstrap.py"
 	],
 	"find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"find_in_files":
 	{
@@ -1057,7 +1089,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1073,8 +1105,8 @@
 						"selection":
 						[
 							[
-								821,
-								821
+								802,
+								802
 							]
 						],
 						"settings":
@@ -1087,7 +1119,7 @@
 						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -1096,15 +1128,43 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 199,
+						"buffer_size": 255,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								199,
-								199
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/about.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 493,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1115,24 +1175,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 3,
 					"file": "products/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1355,
+						"buffer_size": 1828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1071,
-								1071
+								687,
+								687
 							]
 						],
 						"settings":
@@ -1143,11 +1203,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "products/templates/products/product_create.html",
 					"semi_transient": false,
 					"settings":
@@ -1159,8 +1219,8 @@
 						"selection":
 						[
 							[
-								25,
-								25
+								182,
+								182
 							]
 						],
 						"settings":
@@ -1171,11 +1231,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "products/templates/products/product_detail.html",
 					"semi_transient": false,
 					"settings":
@@ -1199,11 +1259,39 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
+					"file": "products/templates/products/product_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "templates/navbar.html",
 					"semi_transient": false,
 					"settings":
@@ -1215,8 +1303,8 @@
 						"selection":
 						[
 							[
-								369,
-								369
+								203,
+								203
 							]
 						],
 						"settings":
@@ -1227,30 +1315,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 8,
 					"file": "products/forms.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1763,
+						"buffer_size": 2021,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								348,
-								348
+								904,
+								904
 							]
 						],
 						"settings":
@@ -1261,24 +1349,80 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 9,
+					"file": "templates/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111,
+								111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "mein_test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								180,
+								180
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
 					"file": "products/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 380,
+						"buffer_size": 451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								380,
-								380
+								450,
+								450
 							]
 						],
 						"settings":
@@ -1289,24 +1433,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 12,
 					"file": "tryDjango/urls.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1215,
+						"buffer_size": 1374,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								834,
-								834
+								1171,
+								1171
 							]
 						],
 						"settings":
@@ -1316,10 +1460,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 160.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
@@ -1327,7 +1471,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 31.0
+		"height": 29.0
 	},
 	"input":
 	{
@@ -1353,7 +1497,7 @@
 		"cols":
 		[
 			0.0,
-			0.503504672897,
+			0.504589772845,
 			1.0
 		],
 		"rows":
@@ -1379,7 +1523,7 @@
 	"project": "try-django.sublime-project",
 	"replace":
 	{
-		"height": 58.0
+		"height": 54.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1433,7 +1577,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 205.0,
+	"side_bar_width": 314.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
