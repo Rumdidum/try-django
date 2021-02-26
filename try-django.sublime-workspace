@@ -532,7 +532,7 @@
 			"file": "templates/base.html",
 			"settings":
 			{
-				"buffer_size": 255,
+				"buffer_size": 246,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -603,7 +603,7 @@
 			"file": "templates/style.css",
 			"settings":
 			{
-				"buffer_size": 111,
+				"buffer_size": 78,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -618,10 +618,13 @@
 			}
 		},
 		{
+			"contents": "from django.db import models\n\n# Create your models here.\n\nclass Product(models.Model):\n    title       = models.CharField(max_length=120)\n    description = models.TextField(blank=True, null=True)\n    price       = models.DecimalField(decimal_places=2, max_digits=1000)\n    summary     = models.TextField(blank=False, null=False)\n    featured    = models.BooleanField(default=False)\n\n    def get_absolute_url(self):\n        return f\"/product/{self.id}/\"\n",
 			"file": "products/models.py",
+			"file_size": 462,
+			"file_write_time": 132583765276243255,
 			"settings":
 			{
-				"buffer_size": 451,
+				"buffer_size": 453,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -909,12 +912,11 @@
 	},
 	"expanded_folders":
 	[
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango"
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango"
 	],
 	"file_history":
 	[
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/test.js",
 		"/C/Users/Rumdidum/AppData/Local/Temp/Temp1_beginner-html-site-styled-gh-pages.zip/beginner-html-site-styled-gh-pages/index.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/my_env/Lib/site-packages/django/template/defaultfilters.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/models.py",
@@ -1041,8 +1043,7 @@
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/create-a-gradual-css-linear-gradient.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/create-a-graphic-using-css.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/add-a-box-shadow-to-a-card-like-element.html",
-		"/C/Program Files (x86)/Python37-32/Lib/curses/ascii.py",
-		"/C/Program Files (x86)/Python37-32/Lib/importlib/_bootstrap.py"
+		"/C/Program Files (x86)/Python37-32/Lib/curses/ascii.py"
 	],
 	"find":
 	{
@@ -1060,6 +1061,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"body",
 			"default",
 			"summary",
 			"models",
@@ -1089,7 +1091,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1128,15 +1130,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 255,
+						"buffer_size": 246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								255,
-								255
+								246,
+								246
 							]
 						],
 						"settings":
@@ -1147,7 +1149,7 @@
 						"translation.y": 2.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1163,8 +1165,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								493,
+								493
 							]
 						],
 						"settings":
@@ -1172,10 +1174,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 320.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1203,7 +1205,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -1231,7 +1233,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1259,7 +1261,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1287,7 +1289,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -1315,13 +1317,13 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1349,7 +1351,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -1358,15 +1360,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 111,
+						"buffer_size": 78,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								111,
-								111
+								77,
+								77
 							]
 						],
 						"settings":
@@ -1377,7 +1379,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -1405,7 +1407,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1414,15 +1416,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 451,
+						"buffer_size": 453,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								450,
-								450
+								57,
+								57
 							]
 						],
 						"settings":
@@ -1433,7 +1435,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1463,7 +1465,7 @@
 						"translation.y": 160.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -1509,7 +1511,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 266.0
+		"height": 130.0
 	},
 	"output.find_results":
 	{
