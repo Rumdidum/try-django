@@ -603,7 +603,7 @@
 			"file": "templates/style.css",
 			"settings":
 			{
-				"buffer_size": 78,
+				"buffer_size": 108,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -625,7 +625,6 @@
 			"settings":
 			{
 				"buffer_size": 453,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
@@ -916,6 +915,8 @@
 	],
 	"file_history":
 	[
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_1_create-a-media-query.html",
+		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_2_make-an-image-responsive.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/test.js",
 		"/C/Users/Rumdidum/AppData/Local/Temp/Temp1_beginner-html-site-styled-gh-pages.zip/beginner-html-site-styled-gh-pages/index.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/my_env/Lib/site-packages/django/template/defaultfilters.py",
@@ -1003,9 +1004,7 @@
 		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_2_add-flex-superpowers-to-the-tweet-embed.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/CSS-Flexbox/_1_use-display-flex-to-position-two-boxes.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_4_make-typography-responsive.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_1_create-a-media-query.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_3_use-a-retina-image-for-higher-resolution-displays.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_2_make-an-image-responsive.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_22_use-tabindex-to-specify-the-order-of-keyboard-focus-for-several-elements.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_21_use-tabindex-to-add-keyboard-focus-to-an-element.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/_1_add-a-text-alternative-to-images-for-visually-impaired-accessibility.html",
@@ -1360,15 +1359,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 78,
+						"buffer_size": 108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								77,
-								77
+								0,
+								0
 							]
 						],
 						"settings":
