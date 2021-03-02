@@ -15,3 +15,6 @@ def about_view(request, *args, **kwargs):
 
 def contact_view(request, *args, **kwargs):
     return render(request, "contact.html", {})
+
+def survey_view(request, *args, **kwargs):
+    return render(request, "survey.html", {})
