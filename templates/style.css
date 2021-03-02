@@ -5,7 +5,9 @@ body {
 .my-class {
     color: rgba(37, 141, 94, 0.527)
 }
-
+h1 {
+    color: red;
+}
 h4 {
     text-align: center;
 }
