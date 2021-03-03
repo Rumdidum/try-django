@@ -520,10 +520,19 @@
 	"buffers":
 	[
 		{
-			"file": "tryDjango/settings.py",
+			"file": "tryDjango/urls.py",
 			"settings":
 			{
-				"buffer_size": 3138,
+				"buffer_size": 1421,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/views.py",
+			"settings":
+			{
+				"buffer_size": 610,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -532,7 +541,16 @@
 			"file": "templates/base.html",
 			"settings":
 			{
-				"buffer_size": 246,
+				"buffer_size": 202,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/contact.html",
+			"settings":
+			{
+				"buffer_size": 145,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -541,43 +559,7 @@
 			"file": "templates/about.html",
 			"settings":
 			{
-				"buffer_size": 983,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "products/views.py",
-			"settings":
-			{
-				"buffer_size": 1828,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "products/templates/products/product_create.html",
-			"settings":
-			{
-				"buffer_size": 182,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "products/templates/products/product_detail.html",
-			"settings":
-			{
-				"buffer_size": 166,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "products/templates/products/product_list.html",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 1135,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -586,25 +568,37 @@
 			"file": "templates/navbar.html",
 			"settings":
 			{
-				"buffer_size": 379,
+				"buffer_size": 447,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "products/forms.py",
+			"file": "products/models.py",
 			"settings":
 			{
-				"buffer_size": 2021,
+				"buffer_size": 453,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "templates/style.css",
+			"contents": "\n<!-- {% extends 'base.html' %} -->\n{% include 'survey.css' %}\n\n{% block content %}\n<!-- <link rel=\"stylesheet\" href=\"survey.css\"> -->\n<div class=\"container\">\n  <header class=\"header\">\n    <h1 id=\"title\" class=\"text-center\">freeCodeCamp Survey Form</h1>\n    <p id=\"description\" class=\"description text-center\">\n      Thank you for taking the time to help us improve the platform\n    </p>\n  </header>\n  <form id=\"survey-form\">\n    <div class=\"form-group\">\n      <label id=\"name-label\" for=\"name\">Name</label>\n      <input\n        type=\"text\"\n        name=\"name\"\n        id=\"name\"\n        class=\"form-control\"\n        placeholder=\"Enter your name\"\n        required\n      />\n    </div>\n    <div class=\"form-group\">\n      <label id=\"email-label\" for=\"email\">Email</label>\n      <input\n        type=\"email\"\n        name=\"email\"\n        id=\"email\"\n        class=\"form-control\"\n        placeholder=\"Enter your Email\"\n        required\n      />\n    </div>\n    <div class=\"form-group\">\n      <label id=\"number-label\" for=\"number\"\n        >Age<span class=\"clue\">(optional)</span></label\n      >\n      <input\n        type=\"number\"\n        name=\"age\"\n        id=\"number\"\n        min=\"10\"\n        max=\"99\"\n        class=\"form-control\"\n        placeholder=\"Age\"\n      />\n    </div>\n    <div class=\"form-group\">\n      <p>Which option best describes your current role?</p>\n      <select id=\"dropdown\" name=\"role\" class=\"form-control\" required>\n        <option disabled selected value>Select current role</option>\n        <option value=\"student\">Student</option>\n        <option value=\"job\">Full Time Job</option>\n        <option value=\"learner\">Full Time Learner</option>\n        <option value=\"preferNo\">Prefer not to say</option>\n        <option value=\"other\">Other</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <p>Would you recommend freeCodeCamp to a friend?</p>\n      <label>\n        <input\n          name=\"user-recommend\"\n          value=\"definitely\"\n          type=\"radio\"\n          class=\"input-radio\"\n          checked\n        />Definitely</label\n      >\n      <label>\n        <input\n          name=\"user-recommend\"\n          value=\"maybe\"\n          type=\"radio\"\n          class=\"input-radio\"\n        />Maybe</label\n      >\n\n      <label\n        ><input\n          name=\"user-recommend\"\n          value=\"not-sure\"\n          type=\"radio\"\n          class=\"input-radio\"\n        />Not sure</label\n      >\n    </div>\n\n    <div class=\"form-group\">\n      <p>\n        What is your favorite feature of freeCodeCamp?\n      </p>\n      <select id=\"most-like\" name=\"mostLike\" class=\"form-control\" required>\n        <option disabled selected value>Select an option</option>\n        <option value=\"challenges\">Challenges</option>\n        <option value=\"projects\">Projects</option>\n        <option value=\"community\">Community</option>\n        <option value=\"openSource\">Open Source</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <p>\n        What would you like to see improved?\n        <span class=\"clue\">(Check all that apply)</span>\n      </p>\n\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"front-end-projects\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Front-end Projects</label\n      >\n      <label>\n        <input\n          name=\"prefer\"\n          value=\"back-end-projects\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Back-end Projects</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"data-visualization\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Data Visualization</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"challenges\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Challenges</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"open-source-community\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Open Source Community</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"gitter-help-rooms\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Gitter help rooms</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"videos\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Videos</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"city-meetups\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />City Meetups</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"wiki\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Wiki</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"forum\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Forum</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"additional-courses\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Additional Courses</label\n      >\n    </div>\n\n    <div class=\"form-group\">\n      <p>Any comments or suggestions?</p>\n      <textarea\n        id=\"comments\"\n        class=\"input-textarea\"\n        name=\"comment\"\n        placeholder=\"Enter your comment here...\"\n      ></textarea>\n    </div>\n\n    <div class=\"form-group\">\n      <button type=\"submit\" id=\"submit\" class=\"submit-button\">\n        Submit\n      </button>\n    </div>\n  </form>\n</div>\n{% endblock content %}",
+			"file": "templates/survey.html",
+			"file_size": 5729,
+			"file_write_time": 132591918173395234,
 			"settings":
 			{
-				"buffer_size": 420,
+				"buffer_size": 5520,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "templates/survey.css",
+			"settings":
+			{
+				"buffer_size": 2923,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -614,36 +608,14 @@
 			"settings":
 			{
 				"buffer_size": 592,
-				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "mein_test.py",
+			"file": "templates/style.css",
 			"settings":
 			{
-				"buffer_size": 180,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "from django.db import models\n\n# Create your models here.\n\nclass Product(models.Model):\n    title       = models.CharField(max_length=120)\n    description = models.TextField(blank=True, null=True)\n    price       = models.DecimalField(decimal_places=2, max_digits=1000)\n    summary     = models.TextField(blank=False, null=False)\n    featured    = models.BooleanField(default=False)\n\n    def get_absolute_url(self):\n        return f\"/product/{self.id}/\"\n",
-			"file": "products/models.py",
-			"file_size": 462,
-			"file_write_time": 132583765276243255,
-			"settings":
-			{
-				"buffer_size": 453,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "tryDjango/urls.py",
-			"settings":
-			{
-				"buffer_size": 1374,
-				"encoding": "UTF-8",
+				"buffer_size": 442,
 				"line_ending": "Windows"
 			}
 		}
@@ -922,30 +894,36 @@
 	"expanded_folders":
 	[
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates"
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/pages",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango"
 	],
 	"file_history":
 	[
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango/settings.py",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/templates/products/product_list.html",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/templates/products/product_detail.html",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/templates/products/product_create.html",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/views.py",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/forms.py",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/mein_test.py",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/home.html",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/style.css",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango/urls.py",
 		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_1_create-a-media-query.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AppliedAccessibility/Responsive-web-design-priciples/_2_make-an-image-responsive.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/test.js",
 		"/C/Users/Rumdidum/AppData/Local/Temp/Temp1_beginner-html-site-styled-gh-pages.zip/beginner-html-site-styled-gh-pages/index.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/my_env/Lib/site-packages/django/template/defaultfilters.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/models.py",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango/urls.py",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango/settings.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/product/detail.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/pages/views.py",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/style.css",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/contact.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/about.html",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/home.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/navbar.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/learning_log_2/templates/navbar.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/apps.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/admin.py",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/views.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/migrations/0003_auto_20210218_2224.py",
 		"/F/Diverses/Python/5-PythonCrashCourse_ubung/Pcc_django/Django app/learning_log_2/Workflow_Django.py",
 		"/F/Diverses/Python/5-PythonCrashCourse_ubung/Pcc_django/Django app/Ziel_learning_log.txt",
@@ -1049,12 +1027,7 @@
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/animate-elements-continually-using-an-infinite-animation-count.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/learn-how-the-css-keyframes-and-animation-properties-work.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/use-css-animation-to-change-the-hover-state-of-a-button.html",
-		"/F/Diverses/Python/24_FREECODECAMP/CSS/learn-how-the-css-keyframes-and-animation-properties-work.html",
-		"/F/Diverses/Python/24_FREECODECAMP/CSS/create-a-more-complex-shape-using-css-and-html.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/create-a-gradual-css-linear-gradient.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/create-a-graphic-using-css.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/add-a-box-shadow-to-a-card-like-element.html",
-		"/C/Program Files (x86)/Python37-32/Lib/curses/ascii.py"
+		"/F/Diverses/Python/24_FREECODECAMP/CSS/learn-how-the-css-keyframes-and-animation-properties-work.html"
 	],
 	"find":
 	{
@@ -1102,24 +1075,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "tryDjango/settings.py",
+					"file": "tryDjango/urls.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3138,
+						"buffer_size": 1421,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								802,
-								802
+								1294,
+								1294
 							]
 						],
 						"settings":
@@ -1129,83 +1102,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 264.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 246,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								230,
-								230
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 2.0,
+						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "templates/about.html",
+					"buffer": 1,
+					"file": "pages/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 983,
+						"buffer_size": 610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								460,
-								460
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "products/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1828,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								687,
-								687
+								610,
+								610
 							]
 						],
 						"settings":
@@ -1216,108 +1133,80 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 202,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/contact.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								123
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 16.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "products/templates/products/product_create.html",
+					"file": "templates/about.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 182,
+						"buffer_size": 1135,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								182,
-								182
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "products/templates/products/product_detail.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 166,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								166,
-								166
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "products/templates/products/product_list.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "templates/navbar.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 379,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								546,
+								546
 							]
 						],
 						"settings":
@@ -1330,84 +1219,22 @@
 					},
 					"stack_index": 8,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 8,
-					"file": "products/forms.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2021,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								904,
-								904
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "templates/style.css",
+					"buffer": 5,
+					"file": "templates/navbar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 420,
+						"buffer_size": 447,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "templates/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 592,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								551,
-								551
+								447,
+								447
 							]
 						],
 						"settings":
@@ -1418,39 +1245,17 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
 				{
-					"buffer": 11,
-					"file": "mein_test.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 180,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								180,
-								180
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
+					"buffer": 6,
 					"file": "products/models.py",
 					"semi_transient": false,
 					"settings":
@@ -1474,30 +1279,90 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
-					"file": "tryDjango/urls.py",
+					"buffer": 7,
+					"file": "templates/survey.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1374,
+						"buffer_size": 5520,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1171,
-								1171
+								63,
+								63
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "templates/survey.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/home.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								591,
+								591
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -1505,6 +1370,36 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "templates/style.css",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 442,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1538,7 +1433,7 @@
 		"cols":
 		[
 			0.0,
-			0.504589772845,
+			0.5534228458,
 			1.0
 		],
 		"rows":
@@ -1610,7 +1505,7 @@
 		],
 		"width": 654.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
@@ -1618,7 +1513,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 314.0,
+	"side_bar_width": 199.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
