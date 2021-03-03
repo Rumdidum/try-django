@@ -5,7 +5,11 @@
 		[
 			[
 				"text",
-				"text-align-last\tproperty"
+				"text-align\tproperty"
+			],
+			[
+				"list-sty",
+				"list-style-type\tproperty"
 			],
 			[
 				"my",
@@ -510,10 +514,6 @@
 			[
 				"game",
 				"game_active"
-			],
-			[
-				"al",
-				"alien_number"
 			]
 		]
 	},
@@ -556,19 +556,10 @@
 			}
 		},
 		{
-			"file": "templates/about.html",
-			"settings":
-			{
-				"buffer_size": 1135,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "templates/navbar.html",
 			"settings":
 			{
-				"buffer_size": 447,
+				"buffer_size": 1198,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -583,13 +574,10 @@
 			}
 		},
 		{
-			"contents": "\n<!-- {% extends 'base.html' %} -->\n{% include 'survey.css' %}\n\n{% block content %}\n<!-- <link rel=\"stylesheet\" href=\"survey.css\"> -->\n<div class=\"container\">\n  <header class=\"header\">\n    <h1 id=\"title\" class=\"text-center\">freeCodeCamp Survey Form</h1>\n    <p id=\"description\" class=\"description text-center\">\n      Thank you for taking the time to help us improve the platform\n    </p>\n  </header>\n  <form id=\"survey-form\">\n    <div class=\"form-group\">\n      <label id=\"name-label\" for=\"name\">Name</label>\n      <input\n        type=\"text\"\n        name=\"name\"\n        id=\"name\"\n        class=\"form-control\"\n        placeholder=\"Enter your name\"\n        required\n      />\n    </div>\n    <div class=\"form-group\">\n      <label id=\"email-label\" for=\"email\">Email</label>\n      <input\n        type=\"email\"\n        name=\"email\"\n        id=\"email\"\n        class=\"form-control\"\n        placeholder=\"Enter your Email\"\n        required\n      />\n    </div>\n    <div class=\"form-group\">\n      <label id=\"number-label\" for=\"number\"\n        >Age<span class=\"clue\">(optional)</span></label\n      >\n      <input\n        type=\"number\"\n        name=\"age\"\n        id=\"number\"\n        min=\"10\"\n        max=\"99\"\n        class=\"form-control\"\n        placeholder=\"Age\"\n      />\n    </div>\n    <div class=\"form-group\">\n      <p>Which option best describes your current role?</p>\n      <select id=\"dropdown\" name=\"role\" class=\"form-control\" required>\n        <option disabled selected value>Select current role</option>\n        <option value=\"student\">Student</option>\n        <option value=\"job\">Full Time Job</option>\n        <option value=\"learner\">Full Time Learner</option>\n        <option value=\"preferNo\">Prefer not to say</option>\n        <option value=\"other\">Other</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <p>Would you recommend freeCodeCamp to a friend?</p>\n      <label>\n        <input\n          name=\"user-recommend\"\n          value=\"definitely\"\n          type=\"radio\"\n          class=\"input-radio\"\n          checked\n        />Definitely</label\n      >\n      <label>\n        <input\n          name=\"user-recommend\"\n          value=\"maybe\"\n          type=\"radio\"\n          class=\"input-radio\"\n        />Maybe</label\n      >\n\n      <label\n        ><input\n          name=\"user-recommend\"\n          value=\"not-sure\"\n          type=\"radio\"\n          class=\"input-radio\"\n        />Not sure</label\n      >\n    </div>\n\n    <div class=\"form-group\">\n      <p>\n        What is your favorite feature of freeCodeCamp?\n      </p>\n      <select id=\"most-like\" name=\"mostLike\" class=\"form-control\" required>\n        <option disabled selected value>Select an option</option>\n        <option value=\"challenges\">Challenges</option>\n        <option value=\"projects\">Projects</option>\n        <option value=\"community\">Community</option>\n        <option value=\"openSource\">Open Source</option>\n      </select>\n    </div>\n\n    <div class=\"form-group\">\n      <p>\n        What would you like to see improved?\n        <span class=\"clue\">(Check all that apply)</span>\n      </p>\n\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"front-end-projects\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Front-end Projects</label\n      >\n      <label>\n        <input\n          name=\"prefer\"\n          value=\"back-end-projects\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Back-end Projects</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"data-visualization\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Data Visualization</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"challenges\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Challenges</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"open-source-community\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Open Source Community</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"gitter-help-rooms\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Gitter help rooms</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"videos\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Videos</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"city-meetups\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />City Meetups</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"wiki\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Wiki</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"forum\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Forum</label\n      >\n      <label\n        ><input\n          name=\"prefer\"\n          value=\"additional-courses\"\n          type=\"checkbox\"\n          class=\"input-checkbox\"\n        />Additional Courses</label\n      >\n    </div>\n\n    <div class=\"form-group\">\n      <p>Any comments or suggestions?</p>\n      <textarea\n        id=\"comments\"\n        class=\"input-textarea\"\n        name=\"comment\"\n        placeholder=\"Enter your comment here...\"\n      ></textarea>\n    </div>\n\n    <div class=\"form-group\">\n      <button type=\"submit\" id=\"submit\" class=\"submit-button\">\n        Submit\n      </button>\n    </div>\n  </form>\n</div>\n{% endblock content %}",
 			"file": "templates/survey.html",
-			"file_size": 5729,
-			"file_write_time": 132591918173395234,
 			"settings":
 			{
-				"buffer_size": 5520,
+				"buffer_size": 5576,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -598,7 +586,7 @@
 			"file": "templates/survey.css",
 			"settings":
 			{
-				"buffer_size": 2923,
+				"buffer_size": 2812,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -895,11 +883,14 @@
 	[
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/pages",
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/pages/__pycache__",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango"
 	],
 	"file_history":
 	[
+		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/about.html",
+		"/C/Users/Rumdidum/OneDrive/Bilder/background-1409025.png",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/tryDjango/settings.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/templates/products/product_list.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/templates/products/product_detail.html",
@@ -919,7 +910,6 @@
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/product/detail.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/pages/views.py",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/contact.html",
-		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/about.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/templates/navbar.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/learning_log_2/templates/navbar.html",
 		"/F/Diverses/Python/5-PCC_ubung/Pcc_django/Django app/TryDjango/products/apps.py",
@@ -1026,12 +1016,11 @@
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/make-a-css-heartbeat-using-an-infinite-animation-count.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/animate-elements-continually-using-an-infinite-animation-count.html",
 		"/F/Diverses/Python/24_FREECODECAMP/AVD/learn-how-the-css-keyframes-and-animation-properties-work.html",
-		"/F/Diverses/Python/24_FREECODECAMP/AVD/use-css-animation-to-change-the-hover-state-of-a-button.html",
-		"/F/Diverses/Python/24_FREECODECAMP/CSS/learn-how-the-css-keyframes-and-animation-properties-work.html"
+		"/F/Diverses/Python/24_FREECODECAMP/AVD/use-css-animation-to-change-the-hover-state-of-a-button.html"
 	],
 	"find":
 	{
-		"height": 29.0
+		"height": 31.0
 	},
 	"find_in_files":
 	{
@@ -1045,6 +1034,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"position",
+			"a",
 			"body",
 			"default",
 			"summary",
@@ -1075,7 +1066,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1105,7 +1096,7 @@
 						"translation.y": 1.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -1133,7 +1124,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -1149,8 +1140,8 @@
 						"selection":
 						[
 							[
-								163,
-								163
+								202,
+								202
 							]
 						],
 						"settings":
@@ -1158,10 +1149,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1189,52 +1180,24 @@
 						"translation.y": 16.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "templates/about.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1135,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								546,
-								546
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "templates/navbar.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 447,
+						"buffer_size": 1198,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								447,
-								447
+								702,
+								708
 							]
 						],
 						"settings":
@@ -1242,10 +1205,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 440.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1255,7 +1218,7 @@
 			"sheets":
 			[
 				{
-					"buffer": 6,
+					"buffer": 5,
 					"file": "products/models.py",
 					"semi_transient": false,
 					"settings":
@@ -1279,24 +1242,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 6,
 					"file": "templates/survey.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5520,
+						"buffer_size": 5576,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								63,
-								63
+								5576,
+								5576
 							]
 						],
 						"settings":
@@ -1306,27 +1269,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 4312.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 7,
 					"file": "templates/survey.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2923,
+						"buffer_size": 2812,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								568,
-								568
+								288,
+								288
 							]
 						],
 						"settings":
@@ -1336,14 +1299,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 440.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 8,
 					"file": "templates/home.html",
 					"semi_transient": false,
 					"settings":
@@ -1369,11 +1332,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "templates/style.css",
 					"semi_transient": true,
 					"settings":
@@ -1385,8 +1348,8 @@
 						"selection":
 						[
 							[
-								442,
-								442
+								142,
+								142
 							]
 						],
 						"settings":
@@ -1396,10 +1359,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 264.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -1407,7 +1370,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -1433,7 +1396,7 @@
 		"cols":
 		[
 			0.0,
-			0.5534228458,
+			0.540058522732,
 			1.0
 		],
 		"rows":
@@ -1459,7 +1422,7 @@
 	"project": "try-django.sublime-project",
 	"replace":
 	{
-		"height": 54.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
