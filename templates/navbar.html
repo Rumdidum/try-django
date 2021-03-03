@@ -4,6 +4,9 @@
     <title></title>
 
 <style type="text/css">
+    h2 {
+        text-align: center;
+    }
     ul {
         list-style-type: none;
         margin: 0;
@@ -19,24 +22,30 @@
         padding: 10px;
         color: white;
     }
+    .active {
+        background-color: red;
+    }   
     a:hover {
-        background-color: #055;
+        background-color: white;
         color: black;
     }
-
+    #contact {
+        float: right;
+    }
 
 </style>
 </head>
 <body>
 <!-- HTML -->
+<h2>Meine Django Seite</h2>
 <nav>
     <ul>
         <li><a href="http://127.0.0.1:8000/home/" id="home">home</a></li>
         <li><a href="http://127.0.0.1:8000/about/">about</a></li>
         <li><a href="http://127.0.0.1:8000/create/">create</a></li>
         <li><a href="http://127.0.0.1:8000/product/">product</a></li>
-        <li><a href="http://127.0.0.1:8000/contact/">contact</a></li>
         <li><a href="http://127.0.0.1:8000/survey/">survey</a></li>
+        <li id="contact"><a class="active" href="http://127.0.0.1:8000/contact/">contact</a></li>
     </ul>
 </nav>
 
