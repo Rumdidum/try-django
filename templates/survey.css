@@ -35,7 +35,7 @@ body::before {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("background-1409025.png")
+  background-image: url(https://cdn.pixabay.com/photo/2016/05/22/19/07/background-1409025_960_720.png);
 }
 
 h1 {
@@ -71,10 +71,12 @@ textarea {
 }
 
 button {
-  border: none;
+  /*vorher border: none;*/
+  border: 2px solid;
 }
 
 .container {
+  /*Hier wird das ganze in die Mitte gesetzt*/
   width: 100%;
   margin: 3.125rem auto 0 auto;
 }

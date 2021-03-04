@@ -7,15 +7,17 @@
     h2 {
         text-align: center;
     }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
+    .sticky-nav {
         overflow: hidden;
         background-color: black;
         position: sticky;
         top: 0;
         width: 100%;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
     }
     li {
         float: left;
@@ -41,7 +43,7 @@
 <body>
 <!-- HTML -->
 <h2>Meine Django Website</h2>
-<nav>
+<nav class="sticky-nav">
     <ul>
         <li><a href="http://127.0.0.1:8000/home/" id="home">home</a></li>
         <li><a href="http://127.0.0.1:8000/about/">about</a></li>
